@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WLqxDquELYl05ivqnCtanK0i+cKaStQpLIv8TcwB/c2T4+vk3c1fMt7s28dCwrbGWcFF2JCATh0g4vmlkT8sBQ==",
+  "dgSpecHash": "/bXZIWk0823uRmtMS2rztJ6yDzbLT2aOTJxOHPQOsc2OyR5FqVlinq9o2mGwJPD2RmwXIh+jhfGyNXOmezDi9g==",
   "success": true,
-  "projectFilePath": "/home/smx27/Documents/Github/DotNet/Simple-Github-Workflow-dotNet/SimpleNetProject/SimpleNetProject.csproj",
+  "projectFilePath": "/home/smx27/Documents/Github/DotNet/Simple-Github-Workflow-dotNet/SimpleNetProject.csproj",
   "expectedPackageFiles": [
     "/home/smx27/.nuget/packages/microsoft.aspnetcore.openapi/7.0.5/microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "/home/smx27/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

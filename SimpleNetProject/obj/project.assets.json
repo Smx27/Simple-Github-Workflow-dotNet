@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/smx27/Documents/Github/DotNet/Simple-Github-Workflow-dotNet/SimpleNetProject/SimpleNetProject.csproj",
+      "projectUniqueName": "/home/smx27/Documents/Github/DotNet/Simple-Github-Workflow-dotNet/SimpleNetProject.csproj",
       "projectName": "SimpleNetProject",
-      "projectPath": "/home/smx27/Documents/Github/DotNet/Simple-Github-Workflow-dotNet/SimpleNetProject/SimpleNetProject.csproj",
+      "projectPath": "/home/smx27/Documents/Github/DotNet/Simple-Github-Workflow-dotNet/SimpleNetProject.csproj",
       "packagesPath": "/home/smx27/.nuget/packages/",
-      "outputPath": "/home/smx27/Documents/Github/DotNet/Simple-Github-Workflow-dotNet/SimpleNetProject/obj/",
+      "outputPath": "/home/smx27/Documents/Github/DotNet/Simple-Github-Workflow-dotNet/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/smx27/.nuget/NuGet/NuGet.Config"
