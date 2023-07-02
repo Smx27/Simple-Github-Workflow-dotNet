@@ -16,12 +16,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Get into the folder 
+      run: cd SimpleNetProject/
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 7.0.x
-    - name: Get into the folder 
-      run: cd SimpleNetProject/
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
