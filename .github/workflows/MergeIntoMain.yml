@@ -21,9 +21,3 @@ jobs:
                 else
                   echo "The branch was not created from main."
                 fi
-
-            - name: Upload a comment to the pull request
-              uses: actions/github-comment@v1
-              with:
-                message: "The pull request has been merged into main."
-                branch: $GITHUB_REF
