@@ -1,0 +1,36 @@
+name: Merge Into Main
+
+on:
+  pull_request:
+    branches: ["main"]
+
+jobs:
+    merge:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+    
+            - name: Check if the branch was checked out from Main
+              run: 
+                branch_name=$(echo $GITHUB_REF | cut -d / -f 3)
+                if [ "$branch_name" == "main" ]; then
+                  echo "The branch was created from main."
+                  git checkout main
+                  git merge $GITHUB_REF
+                  git push
+                else
+                  echo "The branch was not created from main."
+                fi
+
+            - name: Create a status check
+              uses: actions/create-status@v1
+              with:
+                status: "success"
+                target_url: https://github.com/smx27/${{ github.repository.name }}/commits/$GITHUB_SHA
+                description: "Merged pull request #${{ github.event.pull_request.number }}"
+            
+            - name: Upload a comment to the pull request
+              uses: actions/github-comment@v1
+              with:
+                message: "The pull request has been merged into main."
+                branch: $GITHUB_REF
