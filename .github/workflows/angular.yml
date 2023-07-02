@@ -7,8 +7,8 @@ on:
     branches: [ "main" ]
 
 defaults:
-    run:
-        working-directory: client
+  run:
+    working-directory: client
     
 jobs:
   build:
