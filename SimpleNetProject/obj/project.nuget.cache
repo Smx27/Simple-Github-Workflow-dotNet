@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "WLqxDquELYl05ivqnCtanK0i+cKaStQpLIv8TcwB/c2T4+vk3c1fMt7s28dCwrbGWcFF2JCATh0g4vmlkT8sBQ==",
+  "success": true,
+  "projectFilePath": "/home/smx27/Documents/Github/DotNet/Simple-Github-Workflow-dotNet/SimpleNetProject/SimpleNetProject.csproj",
+  "expectedPackageFiles": [
+    "/home/smx27/.nuget/packages/microsoft.aspnetcore.openapi/7.0.5/microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
+    "/home/smx27/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/smx27/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/smx27/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/home/smx27/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/home/smx27/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/home/smx27/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
