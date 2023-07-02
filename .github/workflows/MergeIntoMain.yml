@@ -26,7 +26,7 @@ jobs:
               uses: actions/create-status@v1
               with:
                 status: "success"
-                target_url: https://github.com/smx27/${{ github.repository.name }}/commits/$GITHUB_SHA
+                target_url: https://github.com/Smx27/Simple-Github-Workflow-dotNet/commits/$GITHUB_SHA
                 description: "Merged pull request #${{ github.event.pull_request.number }}"
             
             - name: Upload a comment to the pull request
