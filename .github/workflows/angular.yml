@@ -7,9 +7,9 @@ on:
     branches: [ "main" ]
 
 defaults:
-  run:
-    working-directory: client
-
+    run:
+        working-directory: client
+    
 jobs:
   build:
 
@@ -17,7 +17,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [16.20.0]
        
     steps:
     - uses: actions/checkout@v3
