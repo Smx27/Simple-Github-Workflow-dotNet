@@ -21,16 +21,3 @@ jobs:
                 else
                   echo "The branch was not created from main."
                 fi
-
-            - name: Create a status check
-              uses: actions/create-status@v1
-              with:
-                status: "success"
-                target_url: https://github.com/Smx27/Simple-Github-Workflow-dotNet/commits/$GITHUB_SHA
-                description: "Merged pull request #${{ github.event.pull_request.number }}"
-            
-            - name: Upload a comment to the pull request
-              uses: actions/github-comment@v1
-              with:
-                message: "The pull request has been merged into main."
-                branch: $GITHUB_REF
